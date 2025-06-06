@@ -15,7 +15,7 @@ git add .
 echo "✏️ Committing with message: \"$1\""
 git commit -m "$1"
 
-echo "🚀 Pushing to origin master..."
-git push origin master
+echo "🚀 Pushing to origin main..."
+git push origin main
 
 echo "✅ Done!"
