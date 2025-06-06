@@ -16,6 +16,6 @@ echo "✏️ Committing with message: \"$1\""
 git commit -m "$1"
 
 echo "🚀 Pushing to origin master..."
-git push origin test
+git push origin master
 
 echo "✅ Done!"
