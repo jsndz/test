@@ -12,12 +12,12 @@ function createServer(){
 
     app.post("/data", (req, res) => {
     const { name } = req.body;
-    res.json({ message: `Hello,name!` });
+    res.json({ message: `Hello, ${name}!` });
     });
 
     const PORT = 300;
     app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:PORT`);
+    console.log(`Server is running on http://localhost:${PORT}`);
     });
 }
 
